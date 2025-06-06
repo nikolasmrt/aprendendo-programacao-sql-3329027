@@ -1,4 +1,3 @@
--- Insira 3 classes salariais na tabela salario_classe
-
-
--- Insira 1 nova classe salarial, sem declarar o atributo id_salario
+INSERT INTO escola(nota_semestre1, nota_semestre2, nome_aluno)
+VALUES
+(29, 28, 'Gilmar Rocha de Oliveira');

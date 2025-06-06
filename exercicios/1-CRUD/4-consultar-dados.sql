@@ -1,4 +1,9 @@
--- Crie uma consulta que retorne apenas as colunas "Name", "Composer" e "AlbumId" da tabela "tracks"
-
-
--- Repita a consulta anterior e dessa vez filtre os registros para que retornem apenas as tracks com o atributo "AlbumId" igual a 1
+SELECT
+nome_aluno,
+nota_semestre1,
+nota_semestre2
+FROM
+escola
+WHERE
+nota_semestre1 <=29;
+nota_semestre2 <=29

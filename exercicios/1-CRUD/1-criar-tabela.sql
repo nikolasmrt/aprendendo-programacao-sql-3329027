@@ -1,2 +1,7 @@
--- Crie uma nova tabela no banco de dados
-exemplo de modificacao
+CREATE TABLE escola(
+nome_aluno VARCHAR(255) NOT NULL,
+nota_semestre1 FLOAT,
+nota_semestre2 FLOAT,
+id_aluno INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL
+
+)
